@@ -1,6 +1,9 @@
 body
 {
-    background-color: #F3E6DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans';
@@ -35,12 +38,12 @@ body
 .head_navi
 {
     margin-right: 20%;
-    width:300px;
     height: 65px;
 }
 
 .head_number_image
 {
+    margin-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,4 +56,24 @@ body
     justify-content: center;
     align-items: center;
     height: 65px;
+    
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+    color: #222222;
+
+}
+
+.greetings_image
+{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url(../image/main/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
