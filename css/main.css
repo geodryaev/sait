@@ -118,3 +118,56 @@ a
     letter-spacing: 0.14em;
     color: #B6ACA7; 
 }
+
+.ourGalare
+{
+    background-color: #F1EAE3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ourGalare_maintext
+{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 93.8%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #222222;
+}
+.ourGalare_text1
+{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95.8%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #9C9089;
+}
+.ourGalare_text2
+{
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95.8%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #9C9089;
+}
