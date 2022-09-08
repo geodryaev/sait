@@ -119,6 +119,76 @@ a
     color: #B6ACA7; 
 }
 
+.why_we_are{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why_we_are_title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 93.8%;
+    letter-spacing: 0.005em;
+    margin-top: 10%;
+    padding-left: 20%;
+    width: 80%;
+
+}
+
+.why_we_are_main{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10%;
+
+}
+
+.why_we_are_blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    align-items: center;
+    margin-right: 70px;
+}
+
+.block_image{
+    border-radius: 50%;
+    background-color: #F9F4EE;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_title{
+    padding-top: 5%;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 93.8%;
+    text-align: center;
+}
+
+.block_text{
+    padding-top: 7%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95.8%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #9C9089;
+}
+
 .ourGalare
 {
     background-color: #F1EAE3;
