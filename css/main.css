@@ -191,15 +191,13 @@ a
 
 .ourGalare
 {
-    background-color: #F1EAE3;
-    width: 100%;
+    background-color: #F9F4EE;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 .ourGalare_maintext
 {
-    margin-top: 5vh;
     display: flex;
     justify-content: center;
     font-family: 'Playfair Display';
@@ -240,4 +238,112 @@ a
     text-align: center;
     letter-spacing: 0.055em;
     color: #9C9089;
+}
+
+.ourGalare_photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourGalare_photo_up_left
+{
+    width: 705px;
+    height: 445px;
+    background-image: url(../image/main/Rectangle\ 4.png);
+}
+.ourGalare_photo_up
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.ourGalare_photo_up_right
+{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ourGalare_photo_up_right_right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.ourGalare_photo_up_right_left{
+    display: flex;
+    flex-direction: column;
+}
+
+.ourGalare_photo_down{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.ourGalare_photo_elements1{
+    background-image: url(../image/main/Rectangle\ 7.png);
+    width: 210px;
+    height: 210px;
+}
+.ourGalare_photo_elements2{
+    background-image: url(../image/main/Rectangle\ 8.png);
+    margin-top: 25px;
+    width: 210px;
+    height: 210px;
+}
+
+.ourGalare_photo_elements3{
+    background-image: url(../image/main/Rectangle\ 9.png);
+    width: 210px;
+    height: 210px;
+}
+
+.ourGalare_photo_elements4{
+    background-image: url(../image/main/Rectangle\ 10.png);
+    margin-top: 25px;
+    width: 210px;
+    height: 210px;
+}
+
+.ourGalare_photo_down_1{
+    width: 340px;
+    height: 342px;
+    background-image: url(../image/main/Rectangle\ 5.png);
+}
+
+.ourGalare_photo_down_2{
+    width: 340px;
+    height: 342px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(../image/main/Rectangle\ 6.png);
+}
+
+.ourGalare_photo_down_3{
+    width: 444px;
+    height: 342px;
+    background-image: url(../image/main/Rectangle\ 11.png);
+}
+
+.ourGalare_photo_left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ourGalare_photo_right{
+
+}
+
+.ourGalare_main
+{
+    background-color: #F9F4EE;
+    width: 100%;
+    height: 990px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
