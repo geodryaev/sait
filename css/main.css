@@ -391,3 +391,74 @@ a
 .aboutCompani_left{
     margin-right: 220px;
 }
+
+.asortmen{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.asortmen_headText{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 93.8%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #222222;
+}
+.asortmen_text
+{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95.8%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #9C9089;
+}
+
+.viewAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 194px;
+    height: 45px;
+    border: 2px solid #D29475;
+    border-radius: 4px;
+    color: #D29475;
+}
+
+.viewAll_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 93.8%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+}
+
+.viewAll:hover
+{
+    border-color: #D29475;
+    background-color: #D29475;
+    color:white;
+
+}
+.asortmen_block
+{
+    margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
