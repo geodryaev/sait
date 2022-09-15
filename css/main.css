@@ -344,6 +344,92 @@ a
     padding-top: 5vh;
 }
 
+.how_we_work{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.left_branch{
+    width: 651.96px;
+    height: 651.96px;
+    left: -200.81px;
+    top: 241px;
+    margin-top: 241px;
+
+}
+.how_we_work_title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 93.8%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    margin-top: 112px;
+}
+
+.how_we_work_info{
+    margin-top: 81px;
+    display: flex;
+    flex-direction: row;
+}
+
+.how_we_work_points{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.how_we_work_info_text{
+    margin-left: 40px;
+}
+
+.how_we_work_point{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+.how_we_work_point_margin{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.how_we_work_point_margin_last{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+
+.how_we_work_point_title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 93.8%;
+    text-align: center;
+}
+
+.how_we_work_point_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 95.8%;
+    letter-spacing: 0.055em;
+    color: #9C9089;
+    margin-top: 14px;
+}
+
+.right_branch{
+    top: -161px;
+    /*transform: matrix(-1, 0.09, 0.09, 1, 0, 0);*/
+    transform: rotateX(-1);
+}
+
 .aboutCompani_right_head{
     font-family: 'Playfair Display';
     font-style: normal;
