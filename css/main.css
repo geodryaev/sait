@@ -19,6 +19,7 @@ body
 
 .head
 {
+    position: fixed;
     margin-left: 20%;
     margin-right: 20%;
     display: flex;
