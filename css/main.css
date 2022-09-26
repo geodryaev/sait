@@ -13,20 +13,20 @@ body
     line-height: 22px;
     letter-spacing: 0.15em;
     color: #222222;
-
 }
 
 
 .head
 {
     position: fixed;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
     height: 65px;
+
 }
 
 .head_number
