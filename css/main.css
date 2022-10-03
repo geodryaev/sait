@@ -850,3 +850,20 @@ textarea::-webkit-input-placeholder {
     color: #222222;
     margin-bottom: 3vh;
 }
+
+@media (max-width: 600px) {
+    .mainScreen_mainText{
+        display: none;
+    }
+
+    .mainScreen_Text{
+        margin-top: 5vh;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.14em;
+        color: #B6ACA7;
+    }
+}

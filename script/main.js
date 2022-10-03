@@ -10,3 +10,8 @@ window.addEventListener('scroll', function() {
     }
   }
 });
+
+if (document.documentElement.clientWidth < 600)
+{
+  alert(600);
+}
