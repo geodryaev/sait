@@ -1,5 +1,14 @@
 "use struct"
 
+function delEle (idElements)
+{
+  const n = document.getElementById(idElements);
+  n.remove();
+}
+function createDiv (idElements)
+{
+
+}
 window.addEventListener('scroll', function() {
   if (window.scrollY == 0) 
     {
@@ -10,7 +19,12 @@ window.addEventListener('scroll', function() {
     }
   });
 
-if (document.documentElement.clientWidth < 600)
+if (document.documentElement.clientWidth < 1000)
 {
-  alert(600);
+  delEle('head_navi');
+  delEle('head_number_numberPhone');
+
 }
+
+
+

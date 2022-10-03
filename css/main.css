@@ -29,13 +29,23 @@ body
     height: 65px;
 
 }
+#mobile_head_menu
+{
+    display: none;
+}
+#mobile_head_logo{
+    display: none;
 
+}
+#mobile_head_backet
+{
+    display: none;
+}
 .head_number
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 300px;
     height: 65px;
 }
 
@@ -851,11 +861,39 @@ textarea::-webkit-input-placeholder {
     margin-bottom: 3vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .mainScreen_mainText{
         display: none;
     }
-
+    .greetings_image{
+        width: 100%;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainScreen_Logo
+    {
+        margin-left: 20%;
+        margin-top: 100px;
+    }
+    .mainScreen_Text
+    {
+        margin-left: 20%;
+    }
+    .head{
+        padding-left: 0;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mainScreen
+    {
+        
+        margin: 0;
+    }
     .mainScreen_Text{
         margin-top: 5vh;
         font-family: 'Open Sans';
@@ -865,5 +903,54 @@ textarea::-webkit-input-placeholder {
         line-height: 15px;
         letter-spacing: 0.14em;
         color: #B6ACA7;
+    }
+    #mobile_head_logo
+    {
+        display: flex;
+    }
+    #mobile_head_menu
+    {
+        display: flex;
+    }
+    #mobile_head_backet{
+        display: flex;
+    }
+    .head_number
+    {
+        display: none;
+    }
+
+
+    /*
+asds
+asda
+    */
+    .why_we_are
+    {
+        display: none;
+    }
+    .ourGalare_main
+    {
+        display: none;
+    }
+    .how_we_work
+    {
+        display: none;
+    }
+    .aboutCompani
+    {
+        display: none;
+    }
+    .asortmen
+    {
+        display: none;
+    }
+.question
+{
+    display: none;
+}
+    .underground
+    {
+        display: none;
     }
 }
