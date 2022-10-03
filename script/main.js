@@ -7,12 +7,8 @@ window.addEventListener('scroll', function() {
     } else 
     {
       head.style.backgroundColor = "#F9F4EE";
-    } else 
-    {
-      head.style.backgroundColor = null;
     }
-  }
-});
+  });
 
 if (document.documentElement.clientWidth < 600)
 {
