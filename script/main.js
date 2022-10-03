@@ -1,33 +1,11 @@
 "use struct"
-let h = document.getElementsByClassName("head");
-h[0].style.backgroundColor = "none";
 
-let a = window.scrollY;
-
-window.scroll({
-  top: 300,
-  behavior: 'smooth'
-});
-
-/*
-function consoleBG() 
-{
-    if (window.scrollTop != 0) 
+window.addEventListener('scroll', function() {
+  if (window.scrollY == 0) 
     {
-      $('.head').css('background-color', 'none');
+      head.style.backgroundColor = null;
     } else 
     {
-      head.style.backgroundColor = "red";
+      head.style.backgroundColor = "#F9F4EE";
     }
-  }
-  alert(window.scrollTop);
-  */
-  function consoleBG() 
-  {
-      alert(12);
-  }
-  
-  consoleBG();
-  window.scroll(function() {
-    consoleBG();
-  });
+});
