@@ -5,10 +5,17 @@ function delEle (idElements)
   const n = document.getElementById(idElements);
   n.remove();
 }
-function createDiv (idElements)
-{
-
+function dropDown() {
+  if(document.getElementsByClassName("dropdown-content")[0].style.display == "block")
+  {
+    document.getElementsByClassName("dropdown-content")[0].style.display ="none"
+  }
+  else
+  {
+    document.getElementsByClassName("dropdown-content")[0].style.display = "block";
+  }
 }
+
 window.addEventListener('scroll', function() {
   if (window.scrollY == 0) 
     {
@@ -25,6 +32,7 @@ if (document.documentElement.clientWidth < 1000)
   delEle('head_number_numberPhone');
 
 }
+
 
 
 

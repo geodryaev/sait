@@ -41,6 +41,10 @@ body
 {
     display: none;
 }
+#mobile_head_menuButton
+{
+    display: none;
+}
 .head_number
 {
     display: flex;
@@ -418,12 +422,7 @@ a
     margin-top: 50px;
 }
 
-.how_we_work_point_margin_last{
-    display: flex;
-    flex-direction: row;
-    margin-top: 45px;
-}
-
+.how_we_work_point_madropdown-content
 .how_we_work_point_title{
     font-family: 'Playfair Display';
     font-style: normal;
@@ -870,6 +869,33 @@ textarea::-webkit-input-placeholder {
         height: 380px;
         display: flex;
         flex-direction: column;
+    }
+    .dropdown-content
+    {
+        display: none;
+        margin-top: 20px;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover
+    {
+        background-color: #9C9089;
+    }
+    #mobile_head_menuButton
+    {
+        cursor: pointer;
+        display: flex;
+        border: none;
+        background-color: white;
     }
     .mainScreen_Logo
     {
