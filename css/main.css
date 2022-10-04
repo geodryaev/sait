@@ -136,8 +136,11 @@ a
 }
 
 .why_we_are{
+    display: none;
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -947,14 +950,28 @@ textarea::-webkit-input-placeholder {
     }
 
 
-    /*
+
+    .why_we_are_title
+    {
+        font-size: 30px;
+        padding: none;
+        width: 100%;
+        
+    }
+    .why_we_are_main
+    {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .why_we_are_blocks
+    {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+ /*
 asds
 asda
     */
-    .why_we_are
-    {
-        display: none;
-    }
     .ourGalare_main
     {
         display: none;
