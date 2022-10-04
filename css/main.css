@@ -948,9 +948,10 @@ textarea::-webkit-input-placeholder {
     {
         display: none;
     }
-
-
-
+    .why_we_are
+    {
+        width: auto;
+    }
     .why_we_are_title
     {
         font-size: 30px;
@@ -988,10 +989,10 @@ asda
     {
         display: none;
     }
-.question
-{
-    display: none;
-}
+    .question
+    {
+        display: none;
+    }
     .underground
     {
         display: none;
