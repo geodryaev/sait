@@ -1,33 +1,30 @@
 "use struct"
-let h = document.getElementsByClassName("head");
-h[0].style.backgroundColor = "none";
 
-let a = window.scrollY;
-
-window.scroll({
-  top: 300,
-  behavior: 'smooth'
-});
-
-/*
-function consoleBG() 
+function delEle (idElements)
 {
-    if (window.scrollTop != 0) 
+  const n = document.getElementById(idElements);
+  n.remove();
+}
+function createDiv (idElements)
+{
+
+}
+window.addEventListener('scroll', function() {
+  if (window.scrollY == 0) 
     {
-      $('.head').css('background-color', 'none');
+      head.style.backgroundColor = null;
     } else 
     {
-      head.style.backgroundColor = "red";
+      head.style.backgroundColor = "#F9F4EE";
     }
-  }
-  alert(window.scrollTop);
-  */
-  function consoleBG() 
-  {
-      alert(12);
-  }
-  
-  consoleBG();
-  window.scroll(function() {
-    consoleBG();
   });
+
+if (document.documentElement.clientWidth < 1000)
+{
+  delEle('head_navi');
+  delEle('head_number_numberPhone');
+
+}
+
+
+
