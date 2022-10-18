@@ -344,6 +344,10 @@ a
     background-image: url(../image/main/Rectangle\ 11.png);
 }
 
+.ourGalare_photo_right
+{
+    width: 244pxd'sf;ls';
+}
 .ourGalare_photo_left{
     height: 100%;
     display: flex;
@@ -988,6 +992,7 @@ textarea::-webkit-input-placeholder {
     }
     .why_we_are
     {
+        padding-bottom: 10vh;
         width: auto;
     }
     .why_we_are_title
@@ -1007,14 +1012,19 @@ textarea::-webkit-input-placeholder {
         margin-top: 20px;
         margin-right: 0;
     }
+    .ourGalare_main
+    {
+        height: auto;
+    }
+    .ourGalare_photo
+    {
+     display: none;   
+    }
  /*
 asds
 asda
     */
-    .ourGalare_main
-    {
-        display: none;
-    }
+    
     .how_we_work
     {
         display: none;
