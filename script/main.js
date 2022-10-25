@@ -6,13 +6,13 @@ function delEle (idElements)
   n.remove();
 }
 function dropDown() {
-  if(document.getElementsByClassName("dropdown-content")[0].style.display == "block")
+  if(document.getElementById("mobile_downHead").style.display == "flex")
   {
-    document.getElementsByClassName("dropdown-content")[0].style.display ="none"
+    document.getElementById("mobile_downHead").style.display ="none"
   }
   else
   {
-    document.getElementsByClassName("dropdown-content")[0].style.display = "block";
+    document.getElementById("mobile_downHead").style.display = "flex";
   }
 }
 
@@ -32,5 +32,4 @@ if (document.documentElement.clientWidth < 1000)
 {
   delEle('head_navi');
   delEle('head_number_numberPhone');
-
 }
