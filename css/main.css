@@ -87,7 +87,19 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#carouselOurGalare
+{
+    width: 80vw;
+    height: 50vw;
+}
+.d-block{
+    position: absolute;
+}
+.w-100
+{
+    width: 80vw;
+    height: 50vw;
+}
 .head_navi_li
 {
     list-style-type: none;
@@ -993,13 +1005,13 @@ textarea::-webkit-input-placeholder {
     .why_we_are
     {
         padding-bottom: 10vh;
-        width: auto;
     }
     .why_we_are_title
     {
         font-size: 30px;
-        padding: none;
-        width: 100%;
+        padding: 0;
+        width: auto;
+        margin-left: 0;
         
     }
     .why_we_are_main
@@ -1010,15 +1022,43 @@ textarea::-webkit-input-placeholder {
     .why_we_are_blocks
     {
         margin-top: 20px;
+        margin-left: 0;
         margin-right: 0;
-    }
-    .ourGalare_main
-    {
-        height: auto;
     }
     .ourGalare_photo
     {
      display: none;   
+    }
+    .ourGalare_photo_left
+    {
+        display: none;
+    }
+    .ourGalare_photo_right
+    {
+        display: none;
+    }
+    .ourGalare_main{
+        height: auto;
+        
+    }
+    .our0Galare_photo_left
+    {
+        display: none;
+    }
+    .ourGalare_main
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #carouselOurGalareleftB{
+        height: 100%;
+        width: 100px;
+    }
+    #carouselOurGalarerightB
+    {
+        height: 100%;
+        width: 100px;
     }
  /*
 asds
